@@ -1,6 +1,3 @@
-## Defined by Ravi Dixit
--- Ravi Dixit (+971 - 556966438 OR +91 -7838105776)
-
 api/     
 ├── handlers/
 │   ├── player.go     // Handlers related to player management
