@@ -1,0 +1,23 @@
+## Defined by Ravi Dixit
+-- Ravi Dixit (+971 - 556966438 OR +91 -7838105776)
+
+api/     
+├── handlers/
+│   ├── player.go     // Handlers related to player management
+│   ├── player.go     // Handlers related to the game or slot machine
+│   ├── health.go     // Handlers for health checks
+│   ├── liveness.go   // Handlers for liveness checks
+│   └── readiness.go  // Handlers for readiness checks
+├── models/
+│   └── player.go     // Model definition for Player
+├── repositories/
+│   └── player.go     // Repository layer for Player
+├── services/
+│   └── player.go     // Service layer for Player
+├── utils/
+│   ├── database.go   // Utility functions for database connections
+│   └── redis.go      // Utility functions for Redis
+│   └── utils.go      // Utility for common struct
+├── go.mod
+└── README.md
+└── main.go           // your application entry point on server 3000
